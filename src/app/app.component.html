@@ -1,4 +1,155 @@
-<!--The content below is only a placeholder and can be replaced.-->
+
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+/* Full height image header */
+.home {
+    background-position: center;
+    background-size: cover;
+    background-image: url("assets/home.jpg");
+    min-height: 100%;
+}
+.button {background-color: #008CBA;} /* Blue */
+</style>
+ 
+<body>
+
+<!-- Navbar (sit on top) -->                                                         
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">LOGO</a>
+
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+    <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-question-circle fa-lg"></i> HOME</a>      
+     <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-check-circle fa-lg"></i> ABOUT</a>
+      <a href="#posts" class="w3-bar-item w3-button"><i class="fa fa-flag fa-lg"></i> POSTS</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-phone-square fa-lg"></i> CONTACT</a>
+    </div>
+
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close &times;</a>
+  <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#posts" onclick="w3_close()" class="w3-bar-item w3-button">POSTS</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>                                                                                       
+
+<!-- Header with full-height image -->
+  <header class="home w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:240px">
+   <p><a href="#home" class="button w3-blue w3-center w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Style Loft</a></p>
+  </div> 
+
+</header> 
+  
+
+<!-- About --> 
+<div class="w3-container w3-dark-grey" style="padding:128px 16px" id="about">
+  <div class="w3-container w3-light-grey" style="padding:128px 16px">
+      <div class="w3-col 90 m16 w3-margin-bottom">
+        <h3 class="w3-center"><strong>ABOUT</strong></h3>
+  </div>
+      <div class="w3-card" style="padding:20px">
+              <div style="text-align: center;"><img src="assets/abouts.jpg" height="500" width="800"/>
+               <p class="w3-large" style="text-align: center;"><strong>Meet me</strong> </p>
+            <p>  Hi! I’m Nora Swann. <br><br> I am a NY-born and bred currently live in the fashion capital of the world, Prague. I am founder of Kila’s Style Ltd (Kila’s) and am a fashion-stylist guru.  I’m new at this blogging business but my love for fashion and style came about when I was a kid. I have been in and out of the fashion scene for 4 years now. I say ‘in and out’ because, up until a couple of months ago, my love of fashion and helping people with their personal style was just a hobby – I loved doing this but I wasn’t really making any money from it. Back in 2011, I entered and won a styling competition run by CLEO magazine which gave me the opportunity to put my fashion ideas into action and form my own business – Kila’s Style Ltd. I jumped in the deep end with my ‘trial and error’ attitude and casually followed my love of styling, picking up fashion projects here and there. From that point onwards, I had a lil’ community of followers, helpers and supporters and opportunities started to come my way. And now here I am finally taking my passion seriously, finding and fixing all the gaps in my business, ticking off ‘Start a fashion blog’ off of my extensive checklist and ready to embark on this new journey..</p>
+      </div>
+  </div>
+</div>    
+
+<!--Posts --> 
+<div class="w3-container w3-dark-grey" style="padding:128px 16px" id="posts">
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+<div class="w3-col 90 m16 w3-margin-bottom">
+  <h3 class="w3-center">POSTS</h3>
+</div>
+
+<div class="w3-row-padding w3-center" style="margin-top:64px">
+  <div class="w3-quarter">
+  <div class="w3-container">
+    <div class="w3-card" style="padding:20px">
+    <img src="assets/trends.jpg" height="250" width="200">
+    <p class="w3-large"><strong>WHAT'S TRENDING?</strong></p>
+    <p>Find out what's trending in the world of fashion. In the constantly changing style landscape, if you want to look the best, wear the latest.</p>
+    </div>
+  </div>
+  </div>
+
+  <div class="w3-quarter">
+  <div class="w3-card" style="padding:20px">
+      <img src="assets/recommendation.jpg" height="250" width="200">
+    <p class="w3-large"><strong>RECOMMENDATIONS</strong> </p>
+    <p>Take tips from your very own fashionista about what trends to follow and what to leave. Remember, if you want to work a look, you gotta own the look.</p>
+  </div>
+  </div>
+
+  <div class="w3-quarter">
+  <div class="w3-card" style="padding:20px">
+      <img src="assets/news.jpg" height="250" width="200">
+      <p class="w3-large"><strong>NEWS</strong> </p>
+    <p>Get the latest gossip in town about what your favourite celeb is wearing. Copy their looks or innovate on them. Go wild! The world is your fashion playground.</p>
+  </div>
+  </div>
+
+  <div class="w3-quarter">
+  <div class="w3-card" style="padding:20px">
+      <img src="assets/diary.jpg" height="250" width="200">
+      <p class="w3-large"><strong>THE FASHIONISTA'S DIARY</strong> </p>
+    <p>Flip through the diary of your fashionista to pick and choose your favourite looks. Share your suggestions on how to elevate an outfit. Spread fashion! Spread love!</p>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+                                                                                             
+                                                                                  
+
+<!-- Contact Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="contact">
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+
+<h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Let's get in touch. Send us a message:</p>
+  <contact-form></contact-form>
+      </div>
+</div>
+</div>
+
+ 
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">FILL A TITLE</a></p>
+</footer>                                                                                                     
+
+
+
+<!--The content below is only a placeholder and can be replaced.
 <div style="text-align:center">
   <h1>
     Welcome to {{ title }}!
@@ -17,4 +168,4 @@
     <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
   </li>
 </ul>
-
+-->

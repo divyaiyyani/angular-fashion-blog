@@ -1,0 +1,14 @@
+What is Angular? Contains most of the info needed  for making a website in Angular
+https://angular.io/docs
+
+Installing Angular CLI
+https://www.youtube.com/watch?v=MKApWSDJeiw
+
+Angular forms
+https://medium.com/codingthesmartway-com-blog/angular-2-forms-tutorial-introduction-8686e0c2cd39
+
+Angular routing
+https://www.youtube.com/watch?v=T7s4Ie5kdyQ
+
+Angular Services
+https://coursetro.com/posts/code/20/Angular-2-Services-Tutorial---Understanding-&-Creating-Them
